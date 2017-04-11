@@ -1,6 +1,8 @@
 PROJECT(wingetopt)
 cmake_minimum_required(VERSION 2.8)
 
+set(CMAKE_INSTALL_PREFIX "C:/Solutions/wingetopt/install")
+
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/src)
 add_library(wingetopt STATIC src/getopt.c src/getopt.h)
 
